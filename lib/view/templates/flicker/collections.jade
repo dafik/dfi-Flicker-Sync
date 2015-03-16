@@ -1,0 +1,7 @@
+- each collection in collections
+    .file(data-id="#{collection.id}" data-name="#{collection.title}" data-type="collection")
+        .icon
+            img(src="../../assets/icons/blank.png")
+            if collection.iconsmall
+                img(src="#{collection.iconsmall}" class="imgThumb")
+        .name #{collection.title}

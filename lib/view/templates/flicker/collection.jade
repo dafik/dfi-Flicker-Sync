@@ -1,0 +1,10 @@
+- each photoset in collection
+    .file(data-id="#{photoset.id}" data-name="#{photoset.title}" data-type="photoset")
+        .icon
+            img(src="../../assets/icons/blank.png")
+            if photoset.iconsmall
+                img(src="#{photoset.iconsmall}" class="imgThumb")
+        .name #{photoset.title}
+
+
+
