@@ -1,0 +1,25 @@
+{
+  "name": "flickr",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bootbox": "4.3.0",
+    "bootstrap": "~3.3.2",
+    "exif-parser": "~0.1.7",
+    "flickr-oauth-and-upload": "^0.8.0",
+    "flickr-with-uploads": "2.0.4",
+    "ini": "~1.3.3",
+    "jade": "~1.9.2",
+    "jquery": "~2.1.3",
+    "nw": "^0.12.0",
+    "underscore": "~1.8.2"
+  },
+  "main": "lib/view/index.html",
+  "node-main": "lib/init.js",
+  "window": {
+    "toolbar": true,
+    "as_desktop": true,
+    "width": 800,
+    "height": 600
+  }
+}
