@@ -1,3 +1,6 @@
-//
-   Created by dafi on 15.03.15.
-
+- each photo in collection
+    .file(data-id="#{photo.id}" data-name="#{photo.title}" data-type="photo")
+        .icon
+            img(src="../../assets/icons/blank.png")
+            img(src="#{photo.url}" class="imgThumb")
+        .name #{photo.title}

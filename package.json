@@ -8,6 +8,7 @@
     "exif-parser": "~0.1.7",
     "flickr-oauth-and-upload": "^0.8.0",
     "flickr-with-uploads": "2.0.4",
+    "font-awesome": "^4.3.0",
     "ini": "~1.3.3",
     "jade": "~1.9.2",
     "jquery": "~2.1.3",

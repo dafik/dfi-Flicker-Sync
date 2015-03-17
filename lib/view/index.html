@@ -4,11 +4,14 @@
     <title>Flicker sync</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../../assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--<link href="../../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">-->
+    <link href="../../node_modules/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../../assets/css/style.css" rel="stylesheet">
-    <script type="text/javascript">
-        var $ = require('jquery');
-        require('jquery-ui');
-    </script>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/jquery-ui/jquery-ui.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../node_modules/bootbox/bootbox.js"></script>
     <script type="text/javascript" src="../app.js"></script>
 </head>
 <body>
@@ -18,14 +21,12 @@
             <li class="nav-header">Main</li>
             <li class="active"><a class="local-view" href="#"><i class="icon-white icon-home"></i> Local</a></li>
             <li><a href="#" class="flicker-view"><i class="icon-book"></i> Flicker</a></li>
-
             <li class="nav-header">Settings</li>
             <li class="divider"></li>
             <li><a href="#"><i class="icon-picture"></i> Configuration</a></li>
             <li><a href="#"><i class="icon-flag"></i> About</a></li>
         </ul>
     </div>
-
     <div style="float: left; position: absolute; left: 210px; right: 0; top: 0; bottom: 50px" id="folderView">
         <div class="row">
             <ul class="addressbar breadcrumb"></ul>
@@ -40,9 +41,12 @@
         <div class="row">
             <ul class="addressbar breadcrumb"></ul>
         </div>
-        <div class="row"
-             style="background: #FFF; -webkit-border-radius: 2px; margin: -5px 1px 0 -19px; height: 100%; overflow: auto">
-            <ul style="margin: 5px;" class="files"></ul>
+        <div class="row" style="background: #FFF; -webkit-border-radius: 2px; margin: -5px 1px 0 -19px; height: 100%; overflow: auto">
+            <ul style="margin: 5px;" class="files">
+                <li style="text-align: center; margin-top: 11em;">
+                    <i class="fa fa-spinner fa-pulse" style="font-size: 10em"></i>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
