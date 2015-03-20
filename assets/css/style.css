@@ -3,8 +3,88 @@
 }
 
 body {
-    background-image: url('../images/htmlbg.png')
+    background-image: url('../images/htmlbg.png');
+    font-size: 1.2em;
 }
+
+html, body, #container, .main {
+    height: 100%
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-shrink {
+    flex-shrink: 0;
+}
+
+.flex-grow {
+    flex-grow: 1
+}
+
+.appPanel {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.appPanel-control {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+aside {
+    position: absolute;
+    width: 150px;
+    margin-right: 5px;
+
+}
+
+#container {
+    padding: 10px 10px;
+}
+
+.main {
+    margin-left: 160px
+}
+
+ul.addressbar {
+    margin-bottom: 10px;
+}
+
+.imgThumbH {
+    max-width: 70px;
+    max-height: 70px;
+    position: relative;
+    top: -70px;
+}
+
+.imgThumbW {
+    max-width: 70px;
+    max-height: 88px;
+    position: relative;
+    top: -94px;
+}
+.imgThumbC {
+    max-width: 70px;
+    max-height: 88px;
+    position: relative;
+    top: -86px;
+}
+
+
+.no-padding{
+    padding: 0;
+}
+
+/*///////*/
 
 .files {
     padding: 0;
@@ -12,9 +92,7 @@ body {
 }
 
 .file {
-    padding: 2px;
-    margin: 2px;
-    width: 80px;
+    width: 100px;
     display: inline-block;
 
     text-align: center;
@@ -27,7 +105,7 @@ body {
 }
 
 .file .name {
-    width: 80px;
+    width: 100px;
     word-wrap: break-word;
 }
 
@@ -38,17 +116,11 @@ body {
 .file .icon {
     margin: auto;
     margin-top: 0;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
 }
 
 .file.focus .icon {
     -webkit-filter: invert(20%);
 }
 
-.imgThumb {
-    max-width: 34px;
-    max-height: 42px;
-    position: relative;
-    top: -50px;
-}

@@ -3,5 +3,6 @@
         .icon
             img(src="assets/icons/#{file.type}.png")
             if file.thumbnail
-                img(src="data:image/jpeg;base64,#{file.thumbnail}" class="imgThumb")
+                - var klass = (file.vertical ? "imgThumbW" : "imgThumbH")
+                img(src="data:image/jpeg;base64,#{file.thumbnail}" class=klass)
         .name #{file.name}
