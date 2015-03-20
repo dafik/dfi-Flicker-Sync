@@ -2,16 +2,4 @@
 flickr.iml
 .idea
 appConfig.ini
-node_modules/underscore
-node_modules/jade
-node_modules/nw
-node_modules/flickr-oauth-and-upload
-node_modules/ini
-node_modules/flickr-with-uploads
-node_modules/exif-parser
-node_modules/.bin
-node_modules/jquery
-node_modules/bootstrap
-node_modules/bootbox
-node_modules/jquery-ui
-node_modules/font-awesome
+node_modules
