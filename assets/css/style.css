@@ -106,6 +106,7 @@ span.fancytree-node.fError span.fancytree-title {
 .fancytree-treefocus span.fancytree-selected span.fancytree-title,
 .fancytree-treefocus span.fancytree-active span.fancytree-title {
     background-color: #D4D4D4;
+    color: #000;
 }
 
 /*///////*/
