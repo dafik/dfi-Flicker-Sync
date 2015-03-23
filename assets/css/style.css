@@ -15,6 +15,7 @@ html, body, #container, .main {
     display: flex;
     flex-direction: column;
 }
+
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -72,6 +73,7 @@ ul.addressbar {
     position: relative;
     top: -94px;
 }
+
 .imgThumbC {
     max-width: 70px;
     max-height: 88px;
@@ -79,9 +81,31 @@ ul.addressbar {
     top: -86px;
 }
 
-
-.no-padding{
+.no-padding {
     padding: 0;
+}
+
+span.fancytree-node.fAdd span.fancytree-title {
+    color: greenyellow;
+}
+
+.fancytree-treefocus span.fancytree-selected.fAdd span.fancytree-title,
+.fancytree-treefocus span.fancytree-active.fAdd span.fancytree-title {
+    color: greenyellow;
+}
+
+span.fancytree-node.fError span.fancytree-title {
+    color: orangered;
+}
+
+.fancytree-treefocus span.fancytree-selected.fError span.fancytree-title,
+.fancytree-treefocus span.fancytree-active.fError span.fancytree-title {
+    color: orangered;
+}
+
+.fancytree-treefocus span.fancytree-selected span.fancytree-title,
+.fancytree-treefocus span.fancytree-active span.fancytree-title {
+    background-color: #D4D4D4;
 }
 
 /*///////*/
