@@ -1,14 +1,10 @@
-.flex-shrink
-    ul.addressbar.breadcrumb
-        li
-            button a
-        li
-            button a
-
+.flex-shrink.appPanel.appPanel-control.btn-group
+    button.btn.btn-default#compare do compare
+    button.btn.btn-default#sync do sync
 .flex-grow.appPanel.flex-row.no-padding
-    .col-md-6.col-sm-6.appPanel.flex-grow.flex-column
-        .addressbar.breadcrumb.flex-shrink local
-        .addressbar.breadcrumb.flex-grow data1
-    .col-md-6.col-sm-6.appPanel.flex-grow.flex-column
-        .addressbar.breadcrumb.flex-shrink flickr
-        .addressbar.breadcrumb.flex-grow data2
+    .col-md-6.col-sm-6.appPanel.flex-grow.flex-column#dataLocal
+        .breadcrumb.flex-shrink.addressbar
+        .breadcrumb.flex-grow.data.flex-column
+    .col-md-6.col-sm-6.appPanel.flex-grow.flex-column#dataFlickr
+        .breadcrumb.flex-shrink.addressbar
+        .breadcrumb.flex-grow.data.flex-column
