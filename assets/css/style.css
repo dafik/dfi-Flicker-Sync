@@ -149,3 +149,6 @@ span.fancytree-node.fError span.fancytree-title {
     -webkit-filter: invert(20%);
 }
 
+#queueList ul {
+    list-style: none;
+}

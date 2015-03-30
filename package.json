@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "async": "^0.9.0",
     "bootbox": "4.3.0",
     "bootstrap": "~3.3.2",
+    "collections": "^1.2.2",
     "exif-parser": "~0.1.7",
     "flickr-oauth-and-upload": "^0.8.0",
     "flickr-with-uploads": "2.0.4",
@@ -15,7 +17,14 @@
     "jquery-ui": "^1.10.5",
     "jquery.fancytree": "^2.8.1",
     "nw": "^0.12.0",
-    "underscore": "~1.8.2"
+    "underscore": "~1.8.2",
+    "form-data": "*",
+    "lodash": "*",
+    "loge": "*",
+    "oauth": "*",
+    "optimist": "*",
+    "streaming": "*",
+    "xml2js": "*"
   },
   "main": "index.html",
   "node-main": "lib/node-init.js",
