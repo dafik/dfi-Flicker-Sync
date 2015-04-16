@@ -39,6 +39,10 @@ html, body, #container, .main {
 .appPanel-control {
     background-color: #f5f5f5;
     font-weight: bold;
+    margin-bottom: 10px;
+}
+.breadcrumb {
+    margin-bottom: 10px;
 }
 
 aside {
@@ -109,6 +113,14 @@ span.fancytree-node.fError span.fancytree-title {
     color: #000;
 }
 
+ul.fancytree-container {
+    border: none;
+    border-radius: inherit;
+}
+ul.ui-fancytree:focus{
+    outline-color: slategrey;
+}
+
 /*///////*/
 
 .files {
@@ -152,3 +164,41 @@ span.fancytree-node.fError span.fancytree-title {
 #queueList ul {
     list-style: none;
 }
+#queueList li{
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    background: #ddd;
+    margin-bottom: 1px;
+    border-radius: 3px;
+    padding: 3px;
+}
+#queueList li li{
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    background: #ccc;
+    margin-bottom: 1px;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.progress {
+    margin-bottom: 5px;
+}
+
+
+/*
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+::-webkit-scrollbar-corner {
+    background: #000;
+}*/

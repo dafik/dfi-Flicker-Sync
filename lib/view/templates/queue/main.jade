@@ -1,11 +1,16 @@
-.flex-shrink.appPanel.appPanel-control.btn-group.addressbar
-    button.btn.btn-default#start start
-    button.btn.btn-default.disabled#stop stop
+.flex-shrink.appPanel.appPanel-control.addressbar
+    .btn-group
+        button.btn.btn-default.disabled#start start
+        button.btn.btn-default.disabled#stop stop
+    .btn-group.pull-right
+        button.btn.btn-default.disabled#clearAll clear All
+        button.btn.btn-default.disabled#clear clear Selected
+
 .flex-grow.appPanel.no-padding
     ul.col-md-12.col-sm-12.appPanel#queueList
-        li Collections
+        li(style="display:none") Collections
             ul.collections
-        li Albums
+        li(style="display:none") Albums
             ul.albums
-        li Photos
+        li(style="display:none") Photos
             ul.photos

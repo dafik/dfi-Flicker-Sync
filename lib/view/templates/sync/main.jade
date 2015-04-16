@@ -2,10 +2,10 @@
     button.btn.btn-default#getTrees Load trees
     button.btn.btn-default.disabled#doCompare Compare trees
     button.btn.btn-default.disabled#doQueue Queue selected
-.flex-grow.appPanel.flex-row.no-padding
-    .col-md-6.col-sm-6.appPanel.flex-grow.flex-column#dataLocal
-        .breadcrumb.flex-shrink.addressbar
-        .breadcrumb.flex-grow.data.flex-column
-    .col-md-6.col-sm-6.appPanel.flex-grow.flex-column#dataFlickr
-        .breadcrumb.flex-shrink.addressbar
-        .breadcrumb.flex-grow.data.flex-column
+.flex-grow.flex-row.no-padding
+    .col-md-6.col-sm-6.no-padding.flex-grow.flex-column#dataLocal(style="margin-right:5px")
+        .breadcrumb.flex-shrink.addressbar local
+        .breadcrumb.flex-grow.data.flex-column.no-padding
+    .col-md-6.col-sm-6.no-padding.flex-grow.flex-column#dataFlickr(style="margin-left:5px")
+        .breadcrumb.flex-shrink.addressbar flickr
+        .breadcrumb.flex-grow.data.flex-column.no-padding
