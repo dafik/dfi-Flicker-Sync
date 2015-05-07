@@ -29,7 +29,7 @@
   "main": "index.html",
   "node-main": "lib/node-init.js",
   "window": {
-    "toolbar": true,
+    "toolbar": false,
     "as_desktop": true,
     "width": 960,
     "height": 600
