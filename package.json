@@ -28,8 +28,9 @@
   },
   "main": "index.html",
   "node-main": "lib/node-init.js",
+  "chromium-args": "--js-flags=--harmony",
   "window": {
-    "toolbar": false,
+    "toolbar": true,
     "as_desktop": true,
     "width": 960,
     "height": 600
